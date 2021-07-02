@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
+  <title>107 Books | Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/landing.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- NAVBAR BEGINS -->
+
+  <nav id="navbar" class="navbar">
+    <div class="one">
+      <div id="logoHolder" class="logoHolder">
+        <a id="navbar-brand" class="navbar-brand" href="index.html"><img src="./assets/logo.svg" alt=""></a>
+      </div>
+      <div id="searchItems" class="searchItems">
+        <div id="input-group" class="input-group">
+          <div id="input-group-prepend" class="input-group-prepend">
+            <span class="input-group-text"><img src="./assets/search.svg" alt=""></span>
+          </div>
+          <input type="text" id="topNavSearchBar" class="form-control topNavSearchBar" placeholder="Search for any book"
+            aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <div class="dropdown">
+          <button class="btn topNavAllCategories" id="topNavAllCategories" aria-haspopup="true" aria-expanded="false"
+            style="box-shadow: none;">
+            All categories <span><img src="./assets/chevron-down.svg" alt=""></span>
+          </button>
+          <div class="dropdown-content">
+            <a class="dropdown-item" href="#">Mystery</a>
+            <a class="dropdown-item" href="#">Psychology</a>
+            <a class="dropdown-item" href="#">Thriller</a>
+            <a class="dropdown-item" href="#">Health</a>
+            <a class="dropdown-item" href="#">Romance</a>
+            <a class="dropdown-item" href="#">Finance</a>
+            <a class="dropdown-item" href="#">Non Fiction</a>
+            <a class="dropdown-item" href="#">Educational</a>
+          </div>
+        </div>
+      </div>
+      <div class="searchItemsButton">
+        <button id="topNavSearch" class="btn topNavSearch" type="button" style="box-shadow: none;">Search</button>
+      </div>
+    </div>
+
+    <div id="userDetail" class="userDetail">
+      <a href="#" id="topNavWishlistIcon" class="topNavWishlistIcon">
+        <img class="topNavIcon" src="./assets/wishlist.svg" alt="">
+        Wishlist
+      </a>
+      <a href="#" id="topNavCartIcon" class="topNavCartIcon">
+        <img class="topNavIcon" src="./assets/cart.svg" alt="">
+        Cart
+      </a>
+      <button id="topNavLogIn" class="btn topNavLogIn" type="button" style="box-shadow: none;">
+        <a href="#">Log In</a>
+      </button>
+    </div>
+  </nav>
+
+  <!-- NAVBAR ENDS -->
+
+
+
+  <div class="container">
+    <div class="hero">
+      <div class="heroText">
+        <h1 class="heroTextHead">Your Favourite <br> Online Bookstore</h1>
+        <p class="heroTextBody">Buy books, stay entertained. <br>
+          Sell books, make money. <br>
+          Do it all on <span>107 books</span>.</p>
+        <button class="getStarted" type="submit">Get Started</button>
+      </div>
+      <div class="heroImage">
+        <img src="./assets/Online library.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="trending">
+      <div class="trendingIntro">
+        <div class="trendingIntroTrend">
+          <h3>Trending Books</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- FOOTER BEGINS -->
+
+  <footer>
+    <section>
+      <div class="footer">
+        <div class="footerLogo">
+          <img src="./assets/logo 2.svg" alt="">
+        </div>
+        <div class="contactFooter">
+          <ul>
+            <li> <a href="#">About Us</a></li>
+            <li> <a href="#">Contact</a></li>
+            <li> <a href="#">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="contactFooterSocial">
+          <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/home"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+        <div class="newsLetterFooter">
+          <p>Subsribe to our Newsletter</p>
+          <div class="sub">
+            <input class="newsLetterMail" type="text" placeholder="Email address">
+            <button class="btn btn-outline-success footerSubscribe" type="button" style="box-shadow: none;">Ok</button>
+          </div>
+        </div>
+        <div class="contactFooter">
+          <ul>
+            <li>123 ZuriRoad Nigeria</li>
+            <li> <a href="tel:+234123456789">+234123456789</a></li>
+            <li> <a href="https://gmail.com/">107books@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <!-- FOOTER ENDS -->
+
+</body>
+
+</html>

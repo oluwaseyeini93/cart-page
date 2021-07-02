@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="assets/book-books-study-education-school-book store.svg" type="image/x-icon">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+  <title>107 Books | Cart</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css ">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+  <!-- NAVBAR BEGINS -->
+  <nav id="navbar" class="navbar navbar-light d-flex p-3">
+    <div id="logoHolder" class="logoHolder">
+      <a id="navbar-brand" class="navbar-brand" href="index.html"><img src="assets/logo.svg" alt=""></a>
+    </div>
+    <div id="searchItems" class="searchItems">
+      <div id="searchItemsInput" class="searchItemsInput">
+        <form id="form-inline" class="form-inline">
+          <div id="input-group" class="input-group">
+            <div id="input-group-prepend" class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1"><i class="fa fa-search" aria-hidden="true"></i></span>
+            </div>
+            <input type="text" id="topNavSearchBar" class="form-control topNavSearchBar"
+              placeholder="Search for any book" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle topNavAllCategories" type="button" id="topNavAllCategories"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              All categories
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Mystery</a>
+              <a class="dropdown-item" href="#">Psychology</a>
+              <a class="dropdown-item" href="#">Thriller</a>
+              <a class="dropdown-item" href="#">Health</a>
+              <a class="dropdown-item" href="#">Romance</a>
+              <a class="dropdown-item" href="#">Finance</a>
+              <a class="dropdown-item" href="#">Non Fiction</a>
+              <a class="dropdown-item" href="#">Educational</a>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="searchItemsButton">
+        <button id="topNavSearch" class="btn btn-outline-success my-2 my-sm-0 topNavSearch"
+          type="button">Search</button>
+      </div>
+    </div>
+
+    <div id="userDetail" class="userDetail">
+      <button id="topNavWishlist" class="btn btn-outline-success my-2 my-sm-0 topNavWishlist" type="button"><a
+          id="topNavWishlistIcon" class="topNavWishlistIcon"><img src="assets/wishlist.svg" alt="">
+          Wishlist</a>
+      </button>
+
+      <button id="topNavCart" class="btn btn-outline-success my-2 my-sm-0 topNavCart" type="button">
+        <a href="cart.html" class="cart">Cart<i class="fas fa-shopping-cart">
+          <!--num-of-prod-in-cart--->
+          <span class="num-cart-product">0</span></i>
+       </a>
+      </button>
+      
+      <button id="topNavLogIn" class="btn topNavLogIn" type="button">Log In</button>
+    </div>
+
+  </nav>
+
+   <!-- NAVBAR ENDS -->
+
+  <!-- HERO/WELCOME SECTION BEGINS-->
+        
+
+        <div class="ycart"><h2>Your Cart</h2></div>
+        
+        <div class="cartcontainer">
+            <div class="product-header">
+                <h5 class="product-items">Items</h5>
+                <h5 class="product-type">Type</h5>
+                <h5 class="product-price">Price</h5>
+            </div>
+
+            <div class="products">
+
+            </div>
+        </div>
+
+        <!-- RECOMENDED BOOKS SECTION BEGINS-->
+  <section class="section text-center">
+    <div class="padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 recomendedSection d-flex justify-content-between w-100">
+            <div class="recomend">
+              <h4 class="recomended">Recomended</h3>
+            </div>
+            <div class="see">
+              <h4 class="seeAll">See All</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="cartcontainer">
+      <div class="row">
+        
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          
+          <div class="RecomendCards">
+            <div class="RecomendCardsImage">
+              <img class="img-fluid" src="assets/bookdanielle.png" alt="book">
+            </div>
+            <!--<div class="info-text"></div>-->
+            <h3>Danielle Steel1</h3>
+            <h2>₦2500</h2>
+            <p><a class="add-to-cart cart 1" href="#">Add to Cart</a></p>
+            <!--<button class="btn btn-outline-success headGetStarted" type="button">Add to Cart</button>-->
+          </div>
+          
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3">
+
+          <div class="RecomendCards">
+            <div class="RecomendCardsImage">
+              <img class="img-fluid" src="assets/bookeducated.png" alt="book">
+            </div>
+              <h3>Educated</h3>
+              <h2>₦2500</h2>
+              <p><a class="add-to-cart cart 2" href="#">Add to Cart</a></p>
+                <!--<button class="btn btn-outline-success headGetStarted" type="button">Add to Cart</button>-->
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3">
+
+          <div class="RecomendCards">
+            <div class="RecomendCardsImage">
+              <img class="img-fluid" src="assets/bookmemory.png" alt="book">
+            </div>
+              <h3>Memory</h3>
+              <h2>₦2500</h2>
+              <p><a class="add-to-cart cart 3" href="#">Add to Cart</a></p>
+                <!--<button class="btn btn-outline-success headGetStarted" type="button">Add to Cart</button>-->
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-3">
+        
+          <div class="RecomendCards">
+            <div class="RecomendCardsImage">
+              <img class="img-fluid" src="assets/booknora.png" alt="book">
+            </div>
+              <h3>The King of Drugs111</h3>
+              <h2>₦2500</h2>
+              <p><a class="add-to-cart cart 4" href="#">Add to Cart</a></p>
+                <!--<button class="btn btn-outline-success headGetStarted" type="button">Add to Cart</button>-->
+          </div>
+
+    </div>
+  </section>
+
+
+  <!--FOOOTER SECTION STARTS -->
+
+        <footer>
+            <section>
+              <div class="padding">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12 landFooter d-flex justify-content-between w-100">
+                      <div class="footerLogo">
+                        <img src="assets/logo 2.svg" alt="">
+                      </div>
+                      <div class="contactFooter">
+                        <ul>
+                          <li> <a href="#">About Us</a></li>
+                          <li> <a href="#">Contact</a></li>
+                          <li> <a href="#">Terms & Conditions</a></li>
+                        </ul>
+                      </div>
+                      <div class="contactFooter">
+                        <ul>
+                          <li> <a href="#"><i class="fa fa-facebook" aria-hidden="true">Facebook</i></a></li>
+                          <li> <a href="#"><i class="fa fa-twitter" aria-hidden="true">Twitter</i></a></li>
+                          <li> <a href="#"><i class="fa fa-instagram" aria-hidden="true">Instagram</i></a></li>
+                        </ul>
+                      </div>
+                      <div class="newsLetterFooter">
+                        <p>Subsribe to our Newsletter</p>
+                        <div class="sub">
+                          <input type="text" placeholder="Email address">
+                          <button class="btn btn-outline-success headGetStarted" type="button">Ok</button>
+                        </div>
+                      </div>
+                      <div class="contactFooter">
+                        <ul>
+                          <li>123 ZuriRoad Nigeria</li>
+                          <li>+234123456789</li>
+                          <li> <a href="#">107books@gmail.com</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </footer>
+          <!--FOOOTER SECTION ENDS -->
+
+          <script src="cart.js"></script>
+        
+        
+</body>
+</html>

@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+  text-decoration: none;
+}
+
+.navbar {
+  background: #fff;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* border: 1px solid red; */
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.searchItems {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
+.searchItemsButton {
+  padding-left: 10px;
+}
+
+.input-group-text,
+.topNavSearchBar {
+  background: #f2f2f2;
+  border: none;
+  color: #666666;
+  border-radius: 5px 0 0 5px;
+}
+
+.topNavAllCategories {
+  background: #e0dfdf;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  color: #555555;
+}
+
+.topNavSearch {
+  background: #f9a826;
+  outline: none;
+  border: none;
+  color: #fff;
+  /* padding: 11px 18px; */
+  padding: 0.375rem 0.75rem;
+}
+
+.topNavLogIn {
+  background: #3f3d56;
+  outline: none;
+  border: none;
+  color: #fff;
+  /* padding: 8px 24px; */
+  padding: 0.375rem 0.75rem;
+}
+
+.topNavCart {
+  color: #3f3d56;
+  background: #fff;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+.topNavCart .fa-shopping-cart{
+  position: relative;
+}
+
+
+.topNavCart .num-cart-product{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  font-size: 0.8rem;
+  border-radius: 40px;
+  font-weight: 200;
+}
+
+.topNavCart:hover {
+  background: #fff;
+  color: #3f3d56;
+  outline: none;
+  border: none;
+}
+
+.topNavWishlist {
+  color: #3f3d56;
+  background: #fff;
+  outline: none;
+  border: none;
+}
+
+.topNavWishlist:hover {
+  background: #fff;
+  color: #3f3d56;
+  outline: none;
+  border: none;
+}
+
+.landingPage {
+  padding: 50px;
+}
+
+.landingPageHeadCon {
+  padding: 10px 0;
+}
+
+.landingPageHead {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 65.38px;
+  letter-spacing: 0.5%;
+}
+
+.landingPageText {
+  font-family: "Noto Sans", sans-serif;
+  color: #3f3d56;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.landingPageText span {
+  color: #F9A826;
+  font-weight: bolder;
+}
+
+.headGetStarted {
+  background: #f9a826;
+  color: #3f3d56;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 32px;
+  font-size: 18px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bolder;
+}
+
+
+/*----cart container----*/
+.cartcontainer{
+  max-width: 1250px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.cartcontainer .product-header{
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid lightgrey;
+  margin: 0 auto;
+}
+
+.cartcontainer .fa-times{
+  font-size: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.cartcontainer .product-items{
+  width: 60%;
+  height:50%
+}
+
+.cartcontainer .product-type{
+  width: 20%;
+}
+
+.cartcontainer .product-price{
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.products{
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+/*----recomended container----*/
+.recomended {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  /* font-weight: 700; */
+  line-height: 33px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  color: #3F3D56;
+
+}
+
+.seeAll {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  /* font-weight: 700; */
+  line-height: 33px;
+  letter-spacing: 0.005em;
+  /* text-align: left; */
+  color: #999999;
+}
+
+.cartcontainer{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 80px;
+}
+
+.RecomendCards{
+  margin: 10px;
+  position: relative;
+  height: 420px;
+  width: 260px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.RecomendCards:hover{
+  box-shadow: 2px 2px 12px rgba(47,47,47,0.30);
+}
+
+
+/*Footer*/
+footer {
+  padding: 60px 30px;
+  background: #F5F5F5;
+}
+
+.contactFooter ul li {
+  list-style: none;
+  
+}
+
+.contactFooter ul li a:hover {
+  text-decoration: none;
+}
